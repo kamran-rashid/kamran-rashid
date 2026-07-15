@@ -226,19 +226,12 @@ Designed and built **TPMC**, an online machine-unlearning framework clustering s
 ## 📈 GitHub Analytics
 
 <div align="center">
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=kamran-rashid&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&icon_color=BB9AF7&text_color=C0CAF5"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamran-rashid&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&text_color=C0CAF5"/>
 
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=kamran-rashid&theme=tokyonight&hide_border=true&background=0D1117&ring=7AA2F7&fire=F7768E&currStreakLabel=A9B1D6"/>
 
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=kamran-rashid&theme=tokyonight&no-frame=true&margin-w=8&row=1&column=6"/>
 </div>
-
-> To activate the animated contribution snake below: create a repo named exactly `kamran-rashid` with `.github/workflows/snake.yml` running [Platane/snk](https://github.com/Platane/snk) on a schedule.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/kamran-rashid/kamran-rashid/output/github-contribution-grid-snake-dark.svg" width="100%"/>
