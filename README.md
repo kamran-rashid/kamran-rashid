@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12&height=200&section=header&text=Md%20Kamran%20S%20Rashid&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Continual%20Learning%20%C2%B7%20Machine%20Unlearning%20%C2%B7%20Compliance%20Systems&descAlignY=62&descSize=17" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=650&lines=Research+Intern+%40+Indian+Statistical+Institute%2C+Kolkata;Data+%26+Graph+Intelligence+Lead+%40+Nia;Primary+Author+%E2%80%94+IEEE+TQCEBT+2026" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&lines=Research+Intern+%40+ISI+Kolkata;Data+%26+Graph+Intelligence+Lead+%40+Nia;Primary+Author+%E2%80%94+IEEE+TQCEBT+2026" alt="Typing SVG"/>
 
 <br/>
 
@@ -16,31 +16,12 @@
 
 ## 👤 About Me
 
-```ts
-interface Researcher {
-  name: string;
-  degree: string;
-  university: string;
-  supervisor: string;
-  currentWork: string[];
-  publication: string;
-  mindset: string;
-}
+**Md Kamran S Rashid** — B.Sc. Computer Science & Statistics (Hons.), Christ (Deemed to be University), Bengaluru · Class of 2027
 
-const kamran: Researcher = {
-  name: "Md Kamran S Rashid",
-  degree: "B.Sc. Computer Science & Statistics (Hons.)",
-  university: "Christ (Deemed to be University), Bengaluru — '27",
-  supervisor: "Dr. Malay Bhattacharyya, Indian Statistical Institute, Kolkata",
-  currentWork: [
-    "TPMC — online machine-unlearning framework for streaming classification",
-    "Nia — Living Compliance Graph for India's DPDP Act",
-    "DASR — unifying non-stationary RL, continual learning & unlearning",
-  ],
-  publication: "IEEE TQCEBT 2026 — Primary Author (Scopus-track)",
-  mindset: "Technically defensible, novel combinations over incremental work.",
-};
-```
+- 🔬 **Research Advisor:** Dr. Malay Bhattacharyya, Indian Statistical Institute, Kolkata
+- 🧠 **Currently Building:** TPMC (machine unlearning) · Nia (DPDP compliance graph) · DASR (drift-aware replay)
+- 📄 **Publication:** IEEE TQCEBT 2026 — Primary Author (Scopus-track)
+- 💭 **Philosophy:** Technically defensible, novel combinations over incremental work
 
 <br/>
 
@@ -79,15 +60,13 @@ Designed and built **TPMC**, an online machine-unlearning framework clustering s
 ### 🧠 TPMC
 *Temporal Prompt-Aware Memory Consolidation — Research @ ISI Kolkata*
 
-**Problem:** Streaming classifiers accumulate stale, irrelevant memory and have no verifiable way to forget it on demand.
+**Problem:** Streaming classifiers accumulate stale, irrelevant memory with no verifiable way to forget it on demand.
 
 **Approach:** A Three-Gate criterion (relevance, population, uncertainty) that proactively deletes temporally-stale clusters with **verified exact deletion (L1 = 0)** at O(1) cost vs. O(N) retraining.
 
-| Layer | Tech |
-|---|---|
-| Drift scoring | Sliced Wasserstein Distance |
-| Backbone | 512–768-dim embeddings |
-| Baselines beaten | EWC (+33.56%), multi-head (+28.89%) |
+- Drift scoring: Sliced Wasserstein Distance
+- Backbone: 512–768-dim embeddings
+- +33.56% over EWC, +28.89% over multi-head baselines
 
 </td><td width="33%" valign="top">
 
@@ -98,26 +77,22 @@ Designed and built **TPMC**, an online machine-unlearning framework clustering s
 
 **Approach:** A "Living Compliance Graph" combining syntax-aware code parsing with an LLM classification filter — moving beyond brittle keyword search — plus a clause-extraction engine and automated PR-ready remediation drafts.
 
-| Layer | Tech |
-|---|---|
-| Graph | Living Compliance Graph |
-| Detection | Code parsing + LLM filter |
-| Output | Auto-drafted DPDP clause language |
+- Detection: code parsing + LLM filter
+- Reconciliation: clause-extraction engine
+- Output: auto-drafted DPDP clause language
 
 </td><td width="33%" valign="top">
 
 ### 🎲 DASR
 *Drift-Aware Selective Replay — RL Research, In Progress*
 
-**Problem:** Non-stationary RL, continual learning, and machine unlearning have evolved as disconnected subfields despite sharing a core problem: what to keep, and what to forget.
+**Problem:** Non-stationary RL, continual learning, and machine unlearning evolved as disconnected subfields despite sharing one core question: what to keep, and what to forget.
 
 **Approach:** A unified replay-management framework with a three-gate retention/migration/deletion criterion, backed by a derived sublinear dynamic-regret bound.
 
-| Layer | Tech |
-|---|---|
-| Scoring | Sliced Wasserstein Distance |
-| Bound | O(V^{1/3}T^{2/3}) dynamic regret |
-| Eval | MuJoCo HalfCheetah, contextual bandits vs. 5 baselines |
+- Scoring: Sliced Wasserstein Distance
+- Bound: sublinear dynamic regret
+- Eval: MuJoCo HalfCheetah, contextual bandits vs. 5 baselines
 
 </td></tr>
 </table>
@@ -143,77 +118,108 @@ Designed and built **TPMC**, an online machine-unlearning framework clustering s
 
 ## ⚡ Engineering Stack
 
-| Category | Technologies |
-|---|---|
-| Languages | Python · R · Java · C · SQL · PHP |
-| ML / Deep Learning | PyTorch · TensorFlow · XGBoost · Scikit-learn · Focal Loss Networks |
-| Research Methods | Continual Learning · Machine Unlearning · Uncertainty Quantification · Optimal Transport |
-| NLP / LLMs | DistilBERT · Claude API · prompt-keyed clustering |
-| Data & Graph Systems | Neo4j · FastAPI · Supabase · PCA · Sliced Wasserstein Distance |
-| APIs & Integration | arXiv · Semantic Scholar · HuggingFace · AIKosh REST APIs |
-| Tools | Git/GitHub · VS Code · Tableau · Excel |
+**Languages**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+
+**ML / Deep Learning**
+<br/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Focal%20Loss%20Networks-6E40C9?style=for-the-badge"/>
+
+**Research Methods**
+<br/>
+<img src="https://img.shields.io/badge/Continual%20Learning-6E40C9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Machine%20Unlearning-6E40C9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Uncertainty%20Quantification-6E40C9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Optimal%20Transport-6E40C9?style=for-the-badge"/>
+
+**NLP / LLMs**
+<br/>
+<img src="https://img.shields.io/badge/DistilBERT-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prompt--Keyed%20Clustering-6E40C9?style=for-the-badge"/>
+
+**Data & Graph Systems**
+<br/>
+<img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+<img src="https://img.shields.io/badge/PCA-6E40C9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Sliced%20Wasserstein%20Distance-6E40C9?style=for-the-badge"/>
+
+**APIs & Integration**
+<br/>
+<img src="https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white"/>
+<img src="https://img.shields.io/badge/Semantic%20Scholar-1857B6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/AIKosh%20REST%20APIs-6E40C9?style=for-the-badge"/>
+
+**Tools**
+<br/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
 
 <br/>
 
 ## 🌱 Currently Exploring
 
-| Area | Focus |
-|---|---|
-| 🔁 Non-Stationary RL | Bandits under drift, regret bounds |
-| 🧹 RL Unlearning | Forgetting guarantees in policy learning |
-| 🕸️ Graph Compliance Reasoning | Legal-clause reconciliation over knowledge graphs |
-| 📉 Distributional Drift | Optimal transport for high-dim feature spaces |
+- 🔁 **Non-Stationary RL** — bandits under drift, regret bounds
+- 🧹 **RL Unlearning** — forgetting guarantees in policy learning
+- 🕸️ **Graph Compliance Reasoning** — legal-clause reconciliation over knowledge graphs
+- 📉 **Distributional Drift** — optimal transport for high-dim feature spaces
 
 <br/>
 
 ## 🎖️ Leadership & Involvement
 
-| Role | Organization | Focus |
-|---|---|---|
-| Overall Head | Labyrinth (CS Dept. Club) | Technical event planning & team management |
-| Market Link (Head) | StaDa — Statistics & Data Science Club | Marketing & inter-department fest coordination |
-| Session Moderator | Leadership Chair | Peer leadership-development sessions |
-| Course Representative | Centre for Social Action | Sustainability initiatives |
-| Peer Educator (Team Lead) | Centre for Counselling & Health Services | Mental health & relationships sessions |
-| Core Committee Member | Centre for Artificial Intelligence | AI Conclave & technical coordination |
-| Core Member | Apex — Centre for Quantitative Finance | Data analysis & economic research |
+- **Overall Head**, Labyrinth (CS Dept. Club) — technical event planning & team management
+- **Market Link (Head)**, StaDa — Statistics & Data Science Club — marketing & inter-department fest coordination
+- **Session Moderator**, Leadership Chair — peer leadership-development sessions
+- **Course Representative**, Centre for Social Action — sustainability initiatives
+- **Peer Educator (Team Lead)**, Centre for Counselling & Health Services — mental health & relationships sessions
+- **Core Committee Member**, Centre for Artificial Intelligence — AI Conclave & technical coordination
+- **Core Member**, Apex — Centre for Quantitative Finance — data analysis & economic research
 
 <br/>
 
 ## 📜 Certifications
 
-| Certificate | Issuer |
-|---|---|
-| Python for Data Science | Infosys Springboard |
-| Advanced R Programming for Data Analytics in Business | Swayam NPTEL |
-| Artificial Intelligence | Infosys Springboard |
-| A Comprehensive Learning Path to Become a Data Scientist in 2025 | Analytics Vidhya |
+- Python for Data Science — *Infosys Springboard*
+- Advanced R Programming for Data Analytics in Business — *Swayam NPTEL*
+- Artificial Intelligence — *Infosys Springboard*
+- A Comprehensive Learning Path to Become a Data Scientist in 2025 — *Analytics Vidhya*
 
 <br/>
 
 ## 🏆 Awards
 
-| Achievement |
-|---|
-| Award of Excellence — Outstanding Performance, Class 12 Boards |
-| 100% marks in Computer Science, ISC Examination |
-| Merit Scholarship & Extracurricular Scholarship, 2024 |
-| 1st Place — Department Fest Statistics Event |
-| 2nd Place — Department Data Analysis Event |
+- Award of Excellence — Outstanding Performance, Class 12 Boards
+- 100% marks in Computer Science, ISC Examination
+- Merit Scholarship & Extracurricular Scholarship, 2024
+- 1st Place — Department Fest Statistics Event
+- 2nd Place — Department Data Analysis Event
 
 <br/>
 
 ## 🎓 Academic
 
-| | |
-|---|---|
-| **Degree** | B.Sc. Computer Science & Statistics (Hons.) |
-| **University** | Christ (Deemed to be University), Bengaluru |
-| **GPA** | 3.8 / 4 |
-| **Graduating** | 2027 |
-| **School** | Calcutta Boys' School, Kolkata |
-| **ISC (Class XII)** | 93.75% |
-| **ICSE (Class X)** | 85.2% |
+- **Degree:** B.Sc. Computer Science & Statistics (Hons.)
+- **University:** Christ (Deemed to be University), Bengaluru — GPA 3.8/4, graduating 2027
+- **School:** Calcutta Boys' School, Kolkata
+- **ISC (Class XII):** 93.75%
+- **ICSE (Class X):** 85.2%
 
 <br/>
 
